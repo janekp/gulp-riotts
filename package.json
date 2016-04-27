@@ -1,0 +1,38 @@
+{
+	"name": "gulp-riotts",
+	"version": "0.0.1",
+	"description": "A gulp plugin for RiotTS",
+	"keywords": [
+		"gulp",
+		"gulpplugin",
+		"riot",
+		"riotjs",
+		"riotts",
+		"typescript"
+	],
+	"author": {
+		"name": "Janek Priimann",
+		"email": "janek.priimann@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/janekp/gulp-riotts.git"
+	},
+	"bugs": {
+		"url": "https://github.com/janekp/gulp-riotts/issues"
+	},
+	"licenses": [ {
+		"type": "MIT",
+		"url": "https://github.com/janekp/gulp-riotts/blob/master/LICENSE"
+	} ],
+	"main": "index",
+	"dependencies": {
+		"gulp-util": "^3.0.7",
+		"jsesc": "^0.5.0",
+		"riot": "^2.3.11",
+		"through2": "^2.0.1"
+	},
+	"engines": {
+		"node": ">= 5.0.0"
+	}
+}
